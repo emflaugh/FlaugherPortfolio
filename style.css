@@ -1,0 +1,131 @@
+#headname {
+  font-family: 'Bad Script', cursive;
+  font-size: 25pt;
+  font-weight: 500;
+  line-height: 2;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12pt;
+  font-weight: 200;
+  line-height: 2;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14pt;
+  font-weight: 200;
+  line-height: 2;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.menubar, .menu, .icons {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navbar, .icons, .actions {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar {
+    float: left;
+}
+
+.navbar, a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+background-color:#4CAF50;
+}
+
+
+body {
+text-align: center;
+background-image: url(https://studio87blog.files.wordpress.com/2016/01/white-marble-2048.jpg);
+width: 90%;
+margin: 0px auto;
+}
+.homeimages {
+  display: inline-block;
+  padding: 10px;
+  text-align:center;
+ }
+#emfpic1, #emfpic3, #avacadotoast {
+  width: 275px;
+  height: 200px;
+  border-radius: 8px;
+  border: 1px solid;
+}
+#emfpic2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  border: 1px solid;
+}
+#emfpic4 {
+  margin: 0px auto;
+  width: 400px;
+  height: 500px;
+  border-radius: 8px;
+  border: 1px solid;
+}
+#aboutme_text {
+  text-align: center;
+  width: 50%;
+  display: inline-block;
+}
+
+.field {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  }
+
+.actions {
+    width: 15%;
+    margin: 0 auto;
+}
+
+fieldset {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  opacity: 0.8;
+}
+
+.button {
+    width: 200;
+}
+
+h3 {
+  text-align: center
+}
+
+.ingredients, .directions {
+  text-align: left;
+  display: inline-block;
+}
